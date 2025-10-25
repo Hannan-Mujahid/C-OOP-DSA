@@ -13,7 +13,6 @@ int main() {
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
     cout << "You entered: ";
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
