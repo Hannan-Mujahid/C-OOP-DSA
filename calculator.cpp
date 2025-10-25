@@ -46,7 +46,5 @@ class calculator{
 int main(){
 calculator obj;
 obj.display();
-
-
     return 0;
 }
