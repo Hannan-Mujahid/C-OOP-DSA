@@ -19,7 +19,7 @@ int main() {
         cout << arr[i] << " ";
     }
 
-    // Free memory
+    // Free memory 
     delete[] arr;
 
     return 0;
