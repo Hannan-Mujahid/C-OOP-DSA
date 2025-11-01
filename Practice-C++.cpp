@@ -9,4 +9,5 @@ int main(){
     }else{
         cout<<"N is negative"<<endl;
     }
+    
 };
