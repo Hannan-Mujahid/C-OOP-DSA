@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 
-    int n= 24;
+    int n= -24;
     if (n>= 0){
         cout<<"N is positive"<<endl;
     }else{
