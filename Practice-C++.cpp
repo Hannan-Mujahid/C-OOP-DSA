@@ -3,11 +3,13 @@
 using namespace std;
 int main(){
 
-    int n= -24;
-    if (n>= 0){
-        cout<<"N is positive"<<endl;
+    int age;
+    cout<<"Enter your age: ";
+    cin>>age;
+    if (age>= 18){
+        cout<<"eligible age "<<age <<endl;
     }else{
-        cout<<"N is negative"<<endl;
+        cout<<"Not eligible age "<<age<<endl;
     }
-    
-};
+    return 0;
+}
