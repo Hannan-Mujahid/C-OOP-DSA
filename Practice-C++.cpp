@@ -81,7 +81,8 @@ int main(){
        return 0;
 }
 */
-
+// for loop in C++
+/*
 #include <iostream>
 #include<string>
 using namespace std;
@@ -92,3 +93,19 @@ int main(){
         }
     return 0;
 }
+*/
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    int n =5;
+    int  sum = 0;
+    for (int i=1; i<=n; i++){
+        cout<<i<<endl;
+        sum +=i;
+    }
+    cout<<"Sum is: "<<sum<<endl;
+    return 0;
+}
+
