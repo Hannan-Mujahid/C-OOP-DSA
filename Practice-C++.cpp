@@ -1,3 +1,4 @@
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -10,6 +11,24 @@ int main(){
         cout<<"eligible age is: "<<age <<endl;
     }else{
         cout<<"Not eligible age is: "<<age<<endl;
+    }
+    return 0;
+}
+
+*/
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+
+    char ch;
+    cout<<"Enter char: ";
+    cin>>ch;
+     if (ch >= 'a' && ch <= 'z'){
+        cout<<"Lowercase Letter:> "<<ch<<endl;
+    }else{
+        cout<<"Upercase Letter:> "<<ch<<endl;
     }
     return 0;
 }
