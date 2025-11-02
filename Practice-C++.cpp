@@ -229,6 +229,7 @@ int main(){
 }
 */
 // sum of all numbers from 1 to n which are divisible by 3.
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -245,3 +246,4 @@ int main(){
     }
     cout<<"Sum is: "<<sum<<endl;
 }
+*/
