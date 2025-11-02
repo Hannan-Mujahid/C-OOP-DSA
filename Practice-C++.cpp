@@ -66,7 +66,7 @@ int main(){
 */
 
 // while loop in C++
-
+/*
 #include <iostream>
 #include<string>
 using namespace std;
@@ -78,4 +78,17 @@ int main(){
        cout<<count <<" ";
        count++;
     }
+       return 0;
+}
+*/
+
+#include <iostream>
+#include<string>
+using namespace std;
+int main(){
+    int n =10;
+    for (int i= 1; i<=n; i++){
+        cout<<i<<" ";
+        }
+    return 0;
 }
