@@ -72,8 +72,9 @@ int main(){
 using namespace std;
 int main(){
     int count = 1;
-    while( count <= 5){
-        cout<<"Count is: "<<count<<endl;
-        count++;
+    while( count <= 10){
+       // cout<<"Count is: "<<count<<endl;
+       cout<<count <<" ";
+       count++;
     }
 }
