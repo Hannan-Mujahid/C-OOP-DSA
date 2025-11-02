@@ -215,12 +215,12 @@ int main(){
 #include<string>
 using namespace std;
 int main(){
-    int n;
+    int c;
     cout<<"Enter any one Number: ";
-    cin>>n;
-    for (int i=1; i<=n; i++){
-        int x = 10;
-        for (int i=1; i<=x; i++){
+    cin>>c;
+    for (int i=1; i<=c; i++){
+        int r = 10;
+        for (int i=1; i<=r; i++){
             cout<<"*";
         }
         cout<<endl;
