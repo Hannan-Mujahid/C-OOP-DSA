@@ -238,7 +238,7 @@ int main(){
     cin>>n;
     int sum=0;
     for (int i=1; i<=n; i++){
-        if (i %4 == 0){
+        if (i %3 == 0){
             cout<<i<<" is divisible by 3 "<<endl;
             sum +=i;
         }
