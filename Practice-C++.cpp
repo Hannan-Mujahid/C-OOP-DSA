@@ -7,9 +7,9 @@ int main(){
     cout<<"Enter your age: ";
     cin>>age;
     if (age>= 18){
-        cout<<"eligible age "<<age <<endl;
+        cout<<"eligible age is: "<<age <<endl;
     }else{
-        cout<<"Not eligible age "<<age<<endl;
+        cout<<"Not eligible age is: "<<age<<endl;
     }
     return 0;
 }
