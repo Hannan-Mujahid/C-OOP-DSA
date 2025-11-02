@@ -64,3 +64,6 @@ int main(){
     return 0;
 }
 */
+
+// while loop in C++
+
