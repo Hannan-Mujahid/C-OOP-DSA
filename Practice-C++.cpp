@@ -33,3 +33,19 @@ int main(){
     return 0;
 }
 */
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+
+    char ch;
+    cout<<"Enter char: ";
+    cin>>ch;
+     if (ch >= 65 && ch <= 90){
+        cout<<"Lowercase Letter:> "<<ch<<endl;
+    }else{
+        cout<<"Upercase Letter:> "<<ch<<endl;
+    }
+    return 0;
+}
