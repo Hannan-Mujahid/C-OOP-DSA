@@ -71,8 +71,9 @@ int main(){
 #include<string>
 using namespace std;
 int main(){
+    int n =50;
     int count = 1;
-    while( count <= 10){
+    while( count <= n){
        // cout<<"Count is: "<<count<<endl;
        cout<<count <<" ";
        count++;
