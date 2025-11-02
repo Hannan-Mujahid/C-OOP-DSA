@@ -129,14 +129,13 @@ int main(){
         return 0;
 }
 */
-
-
+/*
 #include<iostream>
 #include<string>
 using namespace std;
 int main(){
     int n =10;
-    int  find = 0;
+   // int  find = 0;
     int oddSum= 0;
     for (int i=1; i<=n; i++){
         if (i % 2 !=0 ){
@@ -147,3 +146,27 @@ int main(){
     cout<<"Sum is Odd Number: " <<oddSum<<endl;
         return 0;
 }
+*/
+
+/*
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+
+    int n=10;
+    int evenSum=0;
+    int i =1;
+
+    while (i<=n){
+        if (i %2 ==0){
+            cout<<i<<" is Even number"<<endl;
+            evenSum +=i;    
+        }
+        i++;
+    }
+    cout<<"Sum is Even Number: "<<evenSum<<endl;
+
+    return 0;
+}
+*/
