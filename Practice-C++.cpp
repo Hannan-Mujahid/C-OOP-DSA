@@ -67,3 +67,13 @@ int main(){
 
 // while loop in C++
 
+#include <iostream>
+#include<string>
+using namespace std;
+int main(){
+    int count = 1;
+    while( count <= 5){
+        cout<<"Count is: "<<count<<endl;
+        count++;
+    }
+}
