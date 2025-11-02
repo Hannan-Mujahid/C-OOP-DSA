@@ -187,3 +187,24 @@ int main (){
     return 0;
 }
 */
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+
+    int n=14;
+    bool isPrime = true;
+    for (int i=2; i<=n; i++){
+        if (n % 2 == 0){
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime == true){
+        cout<<"Non Prime number"<<endl;
+    }
+
+    return 0;
+}
+
