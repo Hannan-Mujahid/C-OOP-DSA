@@ -170,7 +170,7 @@ int main(){
     return 0;
 }
 */
-
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -186,3 +186,4 @@ int main (){
        cout<<"Sum is Even Number: "<<evenSum<<endl;
     return 0;
 }
+*/
