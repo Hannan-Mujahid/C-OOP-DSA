@@ -94,7 +94,7 @@ int main(){
     return 0;
 }
 */
-
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -108,4 +108,4 @@ int main(){
     cout<<"Sum is: "<<sum<<endl;
     return 0;
 }
-
+*/
