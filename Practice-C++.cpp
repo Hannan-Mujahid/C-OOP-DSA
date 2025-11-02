@@ -211,3 +211,21 @@ int main(){
 }
 */
 
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter any one Number: ";
+    cin>>n;
+    for (int i=1; i<=n; i++){
+        int x = 10;
+        for (int i=1; i<=x; i++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    
+
+    return 0;
+}
