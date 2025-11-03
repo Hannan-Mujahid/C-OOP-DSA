@@ -268,7 +268,7 @@ int main(){
 #include<string>
 using namespace std;
 int main(){
-
+    // 1st Question
     int n=5;
     for (int i=0; i<=n-1; i++){
         for (int j=0; j<=n-1; j++){
@@ -304,9 +304,9 @@ int main(){
 
 
 
-
+    // 2nd Question
     
-    int n=10;
+    int n=5;
     int num=1;
     for (int i=0; i<n; i++){
         for (int j=0; j<n; j++){
