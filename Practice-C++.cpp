@@ -297,13 +297,11 @@ int main (){
        return 0;
 }
 */
+/*
 #include<iostream>
 #include<string>
 using namespace std;
 int main(){
-
-
-
     // 2nd Question
     
     int n=5;
@@ -315,9 +313,6 @@ int main(){
         }
         cout<<endl;
     }
-
-
-
-
     return 0;
 }
+*/
