@@ -354,7 +354,7 @@ int main(){
 #include<iostream>
 #include<string>
 using namespace std;
-int min(){
+int main(){
 
     int n=5;
     
