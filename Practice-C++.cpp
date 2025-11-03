@@ -374,16 +374,14 @@ using namespace std;
 int main(){
 
     int n=5;
-    char ch='A';
+    
     for (int i=0; i<n; i++){
+        char ch='A';
         for(int j=0; j<i+1; j++){
-            cout<<ch<<" ";
+            cout<<ch<<i+1<<" ";
             ch++;
         }
         cout<<endl;
     }
-
-
-
     return 0;
 }
