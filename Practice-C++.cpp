@@ -517,7 +517,11 @@ int main(){
 using namespace std;
 int main(){
 
-   
+   string name[0];
+   for (string n: name){
+    cout<<"Enter name: ";
+    cin>>n;
+   }
 
     return 0;
 }
