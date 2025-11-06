@@ -20,7 +20,7 @@ int factorial(int n){
 // }
 }
 int main(){
-    cout<<factorial(5 );
+    // cout<<factorial(5 );
 
     return 0;
 }
