@@ -570,7 +570,5 @@ int main (){
     }
     cout<<"smallest number: "<<smallest<<endl;
     cout<<"Largest number: "<<largest<<endl;
-
-
     return 0;
 }
