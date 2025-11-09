@@ -596,8 +596,5 @@ int main (){
     int size= 6;
     int target = 78;
     cout<<linearsearch(arr,size,target);
-   
-
-
     return 0;
 }
