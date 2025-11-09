@@ -522,6 +522,7 @@ int main(){
     cout<<"Enter name: ";
     cin>>n;
    }
+    
 
     return 0;
 }
