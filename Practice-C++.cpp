@@ -532,14 +532,18 @@ int main(){
 using namespace std;
 int main(){
     
-    int num[5]= {5,15, 22,1,-15};
+    int num[]= {5,15, 22,1,-15,-24};
     int size = 6;
-    int smallest= INT_FAST8_MAX;
+    int smallest= INT8_MAX;
+    int largest =  INT8_MIN;
     for (int i=0; i<size; i++){
-        if (num[i]< smallest){
-            smallest = num[i];
-        }
+        // if (num[i]< smallest){
+        //     smallest = num[i];
+        // }
+        smallest= min(num[i], smallest);
+        largest = max(num[i], largest);
 }
 cout<<"smallest: " <<smallest<<endl;
+cout<<"Largest: " <<largest<<endl;
     return 0;
 }
