@@ -560,15 +560,19 @@ int main (){
     int num[5]= {10,45,3,98,32};
     int smallest= num[0];
     int largest= num[0];
+    int minIdx= 0;
+    int maxIdx = 0;
     for (int i=0; i<5; i++){
         if (num[i]< smallest){
             smallest = num[i];
+            minIdx= i;
         }
         if(num[i] > largest ){
             largest = num[i];
+            maxIdx = i;
         }
     }
-    cout<<"smallest number: "<<smallest<<endl;
-    cout<<"Largest number: "<<largest<<endl;
+    cout<<"smallest number: "<<smallest<<" at index "<<minIdx<<endl;
+    cout<<"Largest number: "<<largest<<" at index "<<maxIdx<<endl;
     return 0;
 }
