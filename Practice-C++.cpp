@@ -512,6 +512,7 @@ int main(){
     return 0;
 }
 */
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -522,8 +523,7 @@ int main(){
     cout<<"Enter name: ";
     cin>>n;
    }
-    
-
     return 0;
 }
-    
+*/
+
