@@ -536,14 +536,17 @@ int main(){
     int size = 6;
     int smallest= INT8_MAX;
     int largest =  INT8_MIN;
+    int idx= 0;
     for (int i=0; i<size; i++){
         // if (num[i]< smallest){
         //     smallest = num[i];
         // }
         smallest= min(num[i], smallest);
         largest = max(num[i], largest);
+        
 }
 cout<<"smallest: " <<smallest<<endl;
 cout<<"Largest: " <<largest<<endl;
+cout<<idx<<endl;
     return 0;
 }
