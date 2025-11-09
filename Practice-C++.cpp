@@ -579,3 +579,25 @@ int main (){
 */
 
 
+#include<iostream>
+#include<string>
+using namespace std;
+
+int linearsearch(int arr[], int size, int target){
+    for (int i=0; i<size; i++){
+        if (arr[i] == target){
+            return i;
+        }
+    }
+    return -1;
+}
+int main (){
+    int arr[] = {4,1,5,12,78,34,3};
+    int size= 6;
+    int target = 78;
+    cout<<linearsearch(arr,size,target);
+   
+
+
+    return 0;
+}
