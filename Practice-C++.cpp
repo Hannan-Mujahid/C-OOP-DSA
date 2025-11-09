@@ -552,3 +552,25 @@ cout<<idx<<endl;
 }
 */
     
+#include<iostream>
+#include<string>
+using namespace std;
+int main (){
+
+    int num[5]= {10,45,3,98,32};
+    int smallest= num[0];
+    int largest= num[0];
+    for (int i=0; i<5; i++){
+        if (num[i]< smallest){
+            smallest = num[i];
+        }
+        if(num[i] > largest ){
+            largest = num[i];
+        }
+    }
+    cout<<"smallest number: "<<smallest<<endl;
+    cout<<"Largest number: "<<largest<<endl;
+
+
+    return 0;
+}
