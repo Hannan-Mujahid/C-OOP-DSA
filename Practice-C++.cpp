@@ -594,7 +594,7 @@ int linearsearch(int arr[], int size, int target){
 int main (){
     int arr[] = {4,1,5,12,78,34,3};
     int size= 6;
-    int target = 78;
-    cout<<linearsearch(arr,size,target);
+    int target = 34;
+    cout<<"Element Index is : "<<linearsearch(arr,size,target);
     return 0;
 }
