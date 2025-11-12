@@ -578,7 +578,7 @@ int main (){
 }
 */
 
-
+/*
 #include<iostream>
 #include<string>
 using namespace std;
@@ -598,3 +598,6 @@ int main (){
     cout<<"Element Index is : "<<linearsearch(arr,size,target);
     return 0;
 }
+*/
+
+
