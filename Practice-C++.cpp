@@ -624,3 +624,33 @@ int main(){
 }
     */
 
+
+    #include<iostream>
+    #include<vector>
+    using namespace std;
+    int main(){
+
+        int size= 6;
+        int arr[size] = {5, 7,8,12,18,55};
+        int start = 0;
+        int end = size - 1;
+        int target = 18;
+        while (start <= end) {
+            int mid = (start + end)/2;
+            if (arr[mid] == target ){
+                cout<<"Wohoooo we found the target at index "<<mid<<endl;
+            }
+            else if(arr[mid] < target){
+                start = mid + 1;
+            }
+            else{
+                end= mid-1;
+            }
+            return 0;
+            
+        }
+         
+
+
+        return 0;
+    }
